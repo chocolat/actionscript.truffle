@@ -1,0 +1,8 @@
+(name unloadMovieNum)
+
+(trigger
+    (tab un))
+
+(only-in source.actionscript.2)
+
+(snippet [unloadMovieNum(%{1="level"});])

@@ -1,0 +1,8 @@
+(name stopDrag)
+
+(trigger
+    (tab sd))
+
+(only-in source.actionscript.2)
+
+(snippet [stopDrag();])

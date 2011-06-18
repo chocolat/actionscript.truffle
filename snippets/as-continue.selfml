@@ -1,0 +1,8 @@
+(name continue)
+
+(trigger
+    (tab co))
+
+(only-in source.actionscript.2)
+
+(snippet continue;)

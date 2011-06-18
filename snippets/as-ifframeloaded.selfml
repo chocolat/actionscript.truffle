@@ -1,0 +1,10 @@
+(name ifFrameLoaded)
+
+(trigger
+    (tab il))
+
+(only-in source.actionscript.2)
+
+(snippet [ifFrameLoaded (%{1}) {
+	%{2}
+}])

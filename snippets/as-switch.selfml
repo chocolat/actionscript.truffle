@@ -1,0 +1,10 @@
+(name switch)
+
+(trigger
+    (tab sw))
+
+(only-in source.actionscript.2)
+
+(snippet [switch ( %{1="condition"} ) {
+	%{2}
+}])

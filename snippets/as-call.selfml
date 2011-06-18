@@ -1,0 +1,8 @@
+(name call)
+
+(trigger
+    (tab ca))
+
+(only-in source.actionscript.2)
+
+(snippet [call(%{1="frame"});])

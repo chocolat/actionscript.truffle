@@ -1,0 +1,10 @@
+(name interface)
+
+(trigger
+    (tab it))
+
+(only-in source.actionscript.2)
+
+(snippet [interface %{1} {
+	%{2}
+}])

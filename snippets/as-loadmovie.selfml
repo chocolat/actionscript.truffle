@@ -1,0 +1,9 @@
+(name loadMovie)
+
+(trigger
+    (tab lm))
+
+(only-in source.actionscript.2)
+
+(snippet [loadMovie( %{1="url"}, %{2="target"}, %{3="method"});
+])

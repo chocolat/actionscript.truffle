@@ -1,0 +1,9 @@
+(name loadMovieNum)
+
+(trigger
+    (tab ln))
+
+(only-in source.actionscript.2)
+
+(snippet [loadMovieNum( %{1="url"}, %{2="level"}, %{3="method"});
+])

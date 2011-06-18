@@ -1,0 +1,8 @@
+(name removeMovieClip)
+
+(trigger
+    (tab rm))
+
+(only-in source.actionscript.2)
+
+(snippet [removeMovieClip( %{1="target"} );])

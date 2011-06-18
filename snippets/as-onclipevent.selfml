@@ -1,0 +1,10 @@
+(name onClipEvent)
+
+(trigger
+    (tab oc))
+
+(only-in source.actionscript.2)
+
+(snippet [onClipEvent (%{1}) {
+	%{2}
+};])

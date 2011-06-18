@@ -1,0 +1,10 @@
+(name [for in])
+
+(trigger
+    (tab fi))
+
+(only-in source.actionscript.2)
+
+(snippet [for ( var %{1} in %{2} ){
+	%{3}
+};])

@@ -1,0 +1,10 @@
+(name tellTarget)
+
+(trigger
+    (tab tt))
+
+(only-in source.actionscript.2)
+
+(snippet [tellTarget( %{1="target"} ) {
+	%{2}
+}])

@@ -1,0 +1,8 @@
+(name import)
+
+(trigger
+    (tab ip))
+
+(only-in source.actionscript.2)
+
+(snippet [import %{1};])

@@ -1,0 +1,13 @@
+(name class)
+
+(trigger
+    (tab class))
+
+(only-in source.actionscript.2)
+
+(snippet [class %{1="ClassName"} {
+	var _%{2/\u/_/g};
+	function %{1}(%{2}){
+		_%{2} = %{2};%{0}
+	}
+}])

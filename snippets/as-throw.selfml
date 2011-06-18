@@ -1,0 +1,8 @@
+(name throw)
+
+(trigger
+    (tab th))
+
+(only-in source.actionscript.2)
+
+(snippet [throw %{1};])

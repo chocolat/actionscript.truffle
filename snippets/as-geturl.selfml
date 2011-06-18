@@ -1,0 +1,8 @@
+(name getURL)
+
+(trigger
+    (tab gu))
+
+(only-in source.actionscript.2)
+
+(snippet [getURL(%{1});])

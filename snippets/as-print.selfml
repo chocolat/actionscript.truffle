@@ -1,0 +1,8 @@
+(name print)
+
+(trigger
+    (tab pr))
+
+(only-in source.actionscript.2)
+
+(snippet [print( %{1="target"}, %{2="type"} );])

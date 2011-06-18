@@ -1,0 +1,8 @@
+(name gotoAndPlay)
+
+(trigger
+    (tab gp))
+
+(only-in source.actionscript.2)
+
+(snippet [gotoAndPlay(%{1});])

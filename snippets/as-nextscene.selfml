@@ -1,0 +1,8 @@
+(name nextScene)
+
+(trigger
+    (tab ns))
+
+(only-in source.actionscript.2)
+
+(snippet [nextScene();])

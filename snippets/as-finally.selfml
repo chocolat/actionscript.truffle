@@ -1,0 +1,11 @@
+(name finally)
+
+(trigger
+    (tab fy))
+
+(only-in source.actionscript.2)
+
+(snippet [finally {
+	%{1}
+}
+])

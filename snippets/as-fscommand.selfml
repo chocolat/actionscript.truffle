@@ -1,0 +1,8 @@
+(name fscommand)
+
+(trigger
+    (tab fs))
+
+(only-in source.actionscript.2)
+
+(snippet [fscommand(%{1="command"}, %{2="paramaters"});])

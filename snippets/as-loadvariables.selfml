@@ -1,0 +1,8 @@
+(name loadVariables)
+
+(trigger
+    (tab lv))
+
+(only-in source.actionscript.2)
+
+(snippet [loadVariables( %{1="url"}, %{2="target"}, %{3="method"});])

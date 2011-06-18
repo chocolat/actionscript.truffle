@@ -1,0 +1,9 @@
+(name nextFrame)
+
+(trigger
+    (tab nf))
+
+(only-in source.actionscript.2)
+
+(snippet [nextFrame();
+])

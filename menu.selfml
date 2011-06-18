@@ -1,0 +1,12 @@
+(menu command.test-movie
+    ---
+    command.publish-movie
+    ---
+    command.disassemble-.swf
+    ---
+    (submenu MTASC command.build-with-mtasc command.install-mtasc-support-files ---)
+    command.find-in-actionscript-dictionary
+    command.show-as-function-signature
+    ---
+    (submenu Commands command.new-function)
+    (submenu Snippets [snippet.as-#endinitclip] [snippet.as-#include] [snippet.as-#initclip] snippet.as-break snippet.as-call snippet.as-case snippet.as-catch snippet.class snippet.as-continue snippet.as-default snippet.as-delete snippet.as-do-while snippet.as-duplicatemovieclip snippet.as-else-if snippet.as-finally snippet.as-for-in snippet.as-for snippet.as-fscommand snippet.as-function snippet.as-geturl snippet.as-gotoandplay snippet.as-gotoandstop snippet.as-if snippet.as-ifframeloaded snippet.as-import snippet.as-interface snippet.as-loadmovie snippet.as-loadmovienum snippet.as-loadvariables snippet.as-loadvariablesnum snippet.as-movieclip snippet.as-nextframe snippet.as-nextscene snippet.as-on snippet.as-onclipevent snippet.as-play snippet.as-prevframe snippet.as-prevscene snippet.as-print snippet.as-printasbitmap snippet.as-printasbitmapnum snippet.as-printnum snippet.as-removemovieclip snippet.as-return snippet.as-setproperty snippet.as-setvariable snippet.as-startdrag snippet.as-stop snippet.as-stopallsounds snippet.as-stopdrag snippet.as-switch snippet.as-telltarget snippet.as-throw snippet.as-togglehighquality snippet.as-trace snippet.as-try snippet.as-unloadmovie snippet.as-unloadmovienum snippet.as-var snippet.as-while snippet.as-with))

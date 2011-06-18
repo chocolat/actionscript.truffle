@@ -1,0 +1,10 @@
+(name function)
+
+(trigger
+    (tab fn))
+
+(only-in source.actionscript.2)
+
+(snippet [function %{1}(%{2}):%{3}{
+	%{4}
+};])

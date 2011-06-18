@@ -1,0 +1,8 @@
+(name return)
+
+(trigger
+    (tab rt))
+
+(only-in source.actionscript.2)
+
+(snippet [return %{1};])

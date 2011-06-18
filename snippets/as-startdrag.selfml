@@ -1,0 +1,8 @@
+(name startDrag)
+
+(trigger
+    (tab dr))
+
+(only-in source.actionscript.2)
+
+(snippet [startDrag(%{1="target"}, %{2="lockcenter"}, %{3="l"}, %{4="t"}, %{5="r"}, %{6="b"} );])

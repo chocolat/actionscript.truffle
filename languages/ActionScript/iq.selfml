@@ -1,0 +1,8 @@
+(detector
+    (extension as))
+
+(folding
+    (start [(/\*\*|\{\s*$)])
+    (stop [(\*\*/|^\s*\})]))
+
+(indentation.increase [^.*(\{[^}"']*|\([^)"']*)$])

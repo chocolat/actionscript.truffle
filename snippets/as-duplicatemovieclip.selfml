@@ -1,0 +1,8 @@
+(name duplicateMovieClip)
+
+(trigger
+    (tab dm))
+
+(only-in source.actionscript.2)
+
+(snippet [duplicateMovieClip(%{1="target"}, %{2="newName"}, %{3="depth"});])

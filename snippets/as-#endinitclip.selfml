@@ -1,0 +1,8 @@
+(name [#endinitclip])
+
+(trigger
+    (tab ec))
+
+(only-in source.actionscript.2)
+
+(snippet [#endinitclip])

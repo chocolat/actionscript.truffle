@@ -1,0 +1,8 @@
+(name unloadMovie)
+
+(trigger
+    (tab um))
+
+(only-in source.actionscript.2)
+
+(snippet [unloadMovie(%{1="target"});])

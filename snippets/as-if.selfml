@@ -1,0 +1,10 @@
+(name if)
+
+(trigger
+    (tab if))
+
+(only-in source.actionscript.2)
+
+(snippet [if (%{1}) {
+	%{2}
+}])

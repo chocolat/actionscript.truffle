@@ -1,0 +1,10 @@
+(name with)
+
+(trigger
+    (tab wt))
+
+(only-in source.actionscript.2)
+
+(snippet [with (%{1="target"});
+	%{2}
+};])

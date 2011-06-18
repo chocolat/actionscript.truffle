@@ -1,0 +1,17 @@
+(trigger
+    (key [[cmd]R]))
+
+(name [Test Movie])
+
+(only-in source.actionscript.2)
+
+(input nothing)
+
+(output nothing)
+
+(save project)
+
+(script [# assumes the .FLA file is already open
+
+echo "flash.getDocumentDOM().testMovie()" > /tmp/test.jsfl;
+open /tmp/test.jsfl;])

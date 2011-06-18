@@ -1,0 +1,8 @@
+(name gotoAndStop)
+
+(trigger
+    (tab gs))
+
+(only-in source.actionscript.2)
+
+(snippet [gotoAndStop(%{1});])

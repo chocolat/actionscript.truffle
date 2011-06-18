@@ -1,0 +1,10 @@
+(name for)
+
+(trigger
+    (tab fr))
+
+(only-in source.actionscript.2)
+
+(snippet [for ( var %{1}=0; %{1}<%{3}.length; %{1}++ ) {
+	%{4}
+};])

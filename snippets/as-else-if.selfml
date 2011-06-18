@@ -1,0 +1,10 @@
+(name [else if])
+
+(trigger
+    (tab ei))
+
+(only-in source.actionscript.2)
+
+(snippet [else if (%{1}) {
+	%{2}
+}])

@@ -1,0 +1,8 @@
+(name toggleHighQuality)
+
+(trigger
+    (tab tq))
+
+(only-in source.actionscript.2)
+
+(snippet [toggleHighQuality();])

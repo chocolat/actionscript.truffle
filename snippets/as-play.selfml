@@ -1,0 +1,8 @@
+(name play)
+
+(trigger
+    (tab pl))
+
+(only-in source.actionscript.2)
+
+(snippet [play();])

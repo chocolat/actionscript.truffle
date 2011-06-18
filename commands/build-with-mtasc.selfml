@@ -1,0 +1,14 @@
+(trigger
+    (key [[cmd]R]))
+
+(name [Build With MTASC])
+
+(only-in source.actionscript.2)
+
+(input nothing)
+
+(output nothing)
+
+(save project)
+
+(script [ruby "$TM_BUNDLE_SUPPORT/Tools/build_with_mtasc.rb"])

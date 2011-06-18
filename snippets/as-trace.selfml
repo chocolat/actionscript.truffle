@@ -1,0 +1,8 @@
+(name trace)
+
+(trigger
+    (tab tr))
+
+(only-in source.actionscript.2)
+
+(snippet [trace(%{1="\"%{0}\""});])

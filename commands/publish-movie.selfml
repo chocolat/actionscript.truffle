@@ -1,0 +1,17 @@
+(trigger
+    (key [[cmd]B]))
+
+(name [Publish Movie])
+
+(only-in source.actionscript)
+
+(input nothing)
+
+(output nothing)
+
+(save project)
+
+(script [# publishes the document which is open in flash
+
+echo "flash.getDocumentDOM().publish()" > /tmp/test.jsfl;
+open /tmp/test.jsfl;])

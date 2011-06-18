@@ -1,0 +1,10 @@
+(name try)
+
+(trigger
+    (tab ty))
+
+(only-in source.actionscript.2)
+
+(snippet [try {
+	%{1}
+};])

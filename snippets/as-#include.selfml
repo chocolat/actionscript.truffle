@@ -1,0 +1,8 @@
+(name [#include])
+
+(trigger
+    (tab in))
+
+(only-in source.actionscript.2)
+
+(snippet [#include "%{1}"])

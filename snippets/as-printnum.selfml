@@ -1,0 +1,8 @@
+(name printNum)
+
+(trigger
+    (tab pn))
+
+(only-in source.actionscript.2)
+
+(snippet [printNum( %{1="level"}, %{2="type"} );])

@@ -1,0 +1,8 @@
+(name prevFrame)
+
+(trigger
+    (tab pf))
+
+(only-in source.actionscript.2)
+
+(snippet [prevFrame();])

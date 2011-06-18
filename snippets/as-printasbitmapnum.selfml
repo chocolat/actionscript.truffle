@@ -1,0 +1,8 @@
+(name printAsBitmapNum)
+
+(trigger
+    (tab bn))
+
+(only-in source.actionscript.2)
+
+(snippet [printAsBitmapNum( %{1="level"}, %{2="type"} );])

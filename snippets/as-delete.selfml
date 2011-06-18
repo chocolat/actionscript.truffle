@@ -1,0 +1,8 @@
+(name delete)
+
+(trigger
+    (tab de))
+
+(only-in source.actionscript.2)
+
+(snippet [delete %{1};])

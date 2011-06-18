@@ -1,0 +1,9 @@
+(name default)
+
+(trigger
+    (tab dt))
+
+(only-in source.actionscript.2)
+
+(snippet [default :
+	%{1="statement"}])

@@ -1,0 +1,8 @@
+(name var)
+
+(trigger
+    (tab vr))
+
+(only-in source.actionscript.2)
+
+(snippet [var %{1}:%{2};])

@@ -1,0 +1,9 @@
+(name case)
+
+(trigger
+    (tab ce))
+
+(only-in source.actionscript.2)
+
+(snippet [case %{1="expression"} :
+	%{1="statement"}])

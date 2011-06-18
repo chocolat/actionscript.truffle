@@ -1,0 +1,25 @@
+(trigger
+    (key [[alt][f13]]))
+
+(name [Disassemble .SWF])
+
+(only-in source.actionscript)
+
+(input nothing)
+
+(output new-document)
+
+(save nothing)
+
+(script [#Check that flasm has been installed, if not warn the user.
+require_cmd "flasm" "To view the disassembled bytecode for the selected .swf please install flasm in one of the locations below.<br><br>usr/local/bin is recommended.<br><br>Flasm can be found at <a href=\"http://www.nowrap.de/flasm.html\">http://www.nowrap.de/flasm.html</a>."
+
+#Check a swf is selected otherwise show tooltip.
+swfSelected=$( echo $TM_SELECTED_FILE | grep -i .swf )
+if [ "$swfSelected" == "" ]; then
+	echo "Please select a swf file from the project drawer."
+	exit 206; 
+fi
+
+#process the swf with flasm.
+flasm -d "$TM_SELECTED_FILE"])

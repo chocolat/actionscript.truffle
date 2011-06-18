@@ -1,0 +1,11 @@
+(name on)
+
+(trigger
+    (tab on))
+
+(only-in source.actionscript.2)
+
+(snippet [on (%{1}) {
+	%{2}
+};
+])

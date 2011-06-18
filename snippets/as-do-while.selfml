@@ -1,0 +1,10 @@
+(name [do while])
+
+(trigger
+    (tab do))
+
+(only-in source.actionscript.2)
+
+(snippet [do {
+	%{1}
+} while (%{2="condition"});])

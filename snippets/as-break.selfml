@@ -1,0 +1,8 @@
+(name break)
+
+(trigger
+    (tab br))
+
+(only-in source.actionscript.2)
+
+(snippet break;)
