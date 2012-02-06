@@ -5,4 +5,4 @@
 
 (only-in source.actionscript.2)
 
-(snippet [trace(%{1="\"%{0}\""});])
+(snippet [trace(%{1=""%{0}""});])
